@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-*.lockb
 .prettierrc
 
 *.env*
