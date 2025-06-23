@@ -1,6 +1,6 @@
 
 export const APP_TITLE = import.meta.env.VITE_APP_TITLE
-export const FIRST_WARMDLE_DATE = "2025-06-11"
+export const FIRST_WARMDLE_DATE = "2025-06-23"
 export const LOCALSTORE_TABLE = 'state'
 export const GAME_URL = "warm.smsv.dev"
 
