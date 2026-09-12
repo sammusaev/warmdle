@@ -84,7 +84,7 @@ export const isDateYesterday = (date: string): boolean => {
 export const getEmojiClipboardString = (emojiBoard: ResultEmojis): string => {
   const counter = getGameCounter()
   const message = `warmdle#${counter}: ${emojiBoard.temps.length}/6\n`
-  return message + emojiBoard.temps.map(row => row.join('')).join('\n')
+  return message + emojiBoard.temps.map(row => row.join('')).join('\n') + "\n" + window.location.href
 }
 
 export const getGameCounter = (): number => {
