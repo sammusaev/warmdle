@@ -2,9 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: nginx:alpine
+    build: https://github.com/sammusaev/warmdle.git#main
     ports:
       - "8080:80"
-    volumes:
-      - ./dist:/usr/share/nginx/html:ro
     restart: always
